@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with auto typing text effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="#" class="logo">LOGO <span>.</span></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                 <li><a href="#">Portfolia</a></li>
+                <li><a href="#">Contact Us</a></li>
+<img src="img/menu.png"  >
+            </ul>
+        </nav>
+        <div class="text-box">
+            <h1>I Am <span class="auto-text"></span></h1>
+            <p>In This Channel you can find the web development realted video if you are interested in this of contant please
+                don't forget to subscribe the Channel. <br>
+            If this video you find useful don't forget to like and share with your friends</p>
+<a href="#">Contact us</a>
+<a href="#">Sign Up</a>
+        </div>
+        <img src="img/man 1.png" class="user-img">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed (".auto-text",{
+            strings: [ "<span style='color:#fff724;'>Web Developer. </span>" , "<span style='color:cyan;'>App Developer. </span>" ,"<span style='color:aqua;'>Video Editor. </span>"],
+            typeSpeed: 10,
+            backSpeed:10,
+            loop:true
+        })
+    </script>
+</body>
+</html>
